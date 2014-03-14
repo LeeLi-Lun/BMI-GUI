@@ -30,7 +30,7 @@ public class GUI_Of_BMI extends JFrame{
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setVisible(true);
 	}
-}
+} 
 
 class BMI {
 	
