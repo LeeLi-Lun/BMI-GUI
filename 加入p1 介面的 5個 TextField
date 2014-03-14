@@ -13,7 +13,7 @@ public class GUI_Of_BMI extends JFrame{
 
 	public GUI_Of_BMI(){
 		
-		JPanel p1 = new JPanel( new GridLayout( 4,2 ) );
+		JPanel p1 = new JPanel( new GridLayout( 5,2 ) );
 		p1.add( new JLabel("Name") );
 		p1.add(jtName);
 		p1.add( new JLabel("Age") );
