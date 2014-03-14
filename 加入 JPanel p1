@@ -16,6 +16,8 @@ public class GUI_Of_BMI extends JFrame{
 		p1.add( new JLabel("Weight") );
 		
 		p1.add( new JLabel("Height") );
+		
+		p1.setBorder( new TitledBorder("Enter name, age, weight, and height: ") )
 	}
 	
 	public static void main(String[] args){
