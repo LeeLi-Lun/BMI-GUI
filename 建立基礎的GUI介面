@@ -1,0 +1,19 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import java.swing.border.TitledBorder'
+
+public class GUI_Of_BMI extends JFrame{
+	public GUI_Of_BMI(){
+		
+	}
+	
+	public static void main(String[] args){
+		GUI_Of_BMI frame = new GUI_Of_BMI();
+		frame.pack();
+		frame.setTitle("  GUI_Of_BMI ");
+		frame.setLocationRelatiiveTo(null);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setVisible(true);
+	}
+}
