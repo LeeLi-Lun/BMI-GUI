@@ -6,10 +6,10 @@
  *				And then, click the OK button, the program will show the BMI and status.
  *				the GUI:
  *						Name		user enter
- *						Age			user enter
+ *						Age		user enter
  *						Weight		user enter
  *						Height		user enter
- *						BMI			don't enter(click OK will show the answer)
+ *						BMI		don't enter(click OK will show the answer)
  *						Status		don't enter(click OK will show the answer) 
  *												OK(button)
  */ 
