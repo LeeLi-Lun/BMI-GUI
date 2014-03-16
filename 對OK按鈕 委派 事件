@@ -1,4 +1,3 @@
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -11,6 +10,7 @@ public class GUI_Of_BMI extends JFrame{
 	private JTextField jtWeight = new  JTextField();
 	private JTextField jtHeight = new  JTextField();
 	private JTextField jtBMI = new  JTextField();
+	private JTextField jtStatus = new JTeXtField();
 	
 	private JButton jbtOK = new JButton("OK");
 	
@@ -27,6 +27,8 @@ public class GUI_Of_BMI extends JFrame{
 		p1.add(jtHeight);
 		p1.add( new JLabel("BMI"));
 		P1.add(jtBMI);
+		p1.add( new JLabel("Status") );
+		p1.add(jtStatus);
 		p1.setBorder( new 
 			TitledBorder("Enter name, age, weight, and height: ") )
 			
