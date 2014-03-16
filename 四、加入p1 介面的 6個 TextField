@@ -10,6 +10,7 @@ public class GUI_Of_BMI extends JFrame{
 	private JTextField jtWeight = new  JTextField();
 	private JTextField jtHeight = new  JTextField();
 	private JTextField jtBMI = new  JTextField();
+	private JTextField jtStatus = new JTextField();
 	
 
 	public GUI_Of_BMI(){
@@ -25,7 +26,8 @@ public class GUI_Of_BMI extends JFrame{
 		p1.add(jtHeight);
 		p1.add( new JLabel("BMI") );
 		p1.add(jtBMI);
-		p1.add()
+		p1.add( new JLabel("Status") );
+		p1.add(jrStatus);
 		p1.setBorder( new 
 		  TitledBorder("Enter name, age, weight, and height: ") )
 	}
